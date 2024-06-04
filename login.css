@@ -1,0 +1,85 @@
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  background: linear-gradient(lightblue, greenyellow, lightblue);
+}
+.main {
+  width: 100%;
+}
+ul,
+li {
+  display: inline-block;
+  font-size: smaller;
+  margin-right: 25px;
+}
+.nav {
+  text-align: end;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.try {
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  background: none;
+  border: 2px solid green;
+  color: green;
+}
+.sign {
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+.card {
+  width: 450px;
+  height: 450px;
+  margin: 150px 0 0 30%;
+  padding: 40px 30px 20px 30px;
+  box-sizing: border-box;
+  font-size: xx-small;
+}
+.sign {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  background: green;
+  color: white;
+}
+h1 {
+  display: inline;
+}
+.signin {
+  margin-left: 190px;
+  text-decoration: none;
+}
+.signin:hover {
+  color: red;
+}
+input {
+  width: 100%;
+  display: block;
+  padding-inline-start: 10px;
+  margin-top: 45px;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 10px 15px -3px rgba(238, 9, 9, 0.1);
+  outline: none;
+  font-size: xx-small;
+  border-radius: 15px;
+}
+.psd {
+  display: block;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.psd:hover {
+  color: red;
+}
+input:hover {
+  background: lightblue;
+}
