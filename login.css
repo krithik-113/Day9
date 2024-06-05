@@ -4,7 +4,6 @@ html {
 body {
   height: 100%;
   margin: 0;
-  display: flex;
   background: linear-gradient(lightblue, greenyellow, lightblue);
 }
 .main {
@@ -42,12 +41,14 @@ li {
   font-size: xx-small;
 }
 .sign {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 50px;
   padding: 10px;
   border-radius: 30px;
   background: green;
   color: white;
+  justify-items: center;
+  margin-left: 133px;
 }
 h1 {
   display: inline;
